@@ -1,9 +1,11 @@
 def speak_to_grandma
   if "I LOVE YOU GRAMDMA!"
     puts "I LOVE YOU TOO PUMPKIN!"
-  else "HUH?! SPEAK UP, SONNY!"
+  elsif "I love you Grandma!"
+    puts "HUH?! SPEAK UP, SONNY!"
+  else
+    puts"HUH?! SPEAK UP, SONNY!"
   end
-  
 end
 
 # Whatever you say to grandma, she should respond with
